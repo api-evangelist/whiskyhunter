@@ -1,0 +1,32 @@
+aid: whiskyhunter
+name: WhiskyHunter
+description: "Past online whisky auctions statistical data"
+url: https://whiskyhunter.net/api/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Food & Drink"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Food And Drink
+  - Public APIs
+apis:
+  - name: WhiskyHunter
+    description: "Past online whisky auctions statistical data"
+    humanURL: https://whiskyhunter.net/api/
+    baseURL: https://whiskyhunter.net/api/
+    tags:
+      - Food And Drink
+    properties:
+      - type: Documentation
+        url: https://whiskyhunter.net/api/
+common:
+  - type: Website
+    url: https://whiskyhunter.net/api/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
