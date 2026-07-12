@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://whiskyhunter.net/api/
 common:
+  - type: DomainSecurity
+    url: security/whiskyhunter-domain-security.yml
   - type: Website
     url: https://whiskyhunter.net/api/
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://whiskyhunter.net/blog/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
